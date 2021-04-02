@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "node.js server with mongodb",
   "main": "app.js",
+  "engines": {
+    "node": "14.15.0",
+    "npm": "6.14.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
